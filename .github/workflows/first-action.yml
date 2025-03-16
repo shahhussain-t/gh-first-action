@@ -1,0 +1,14 @@
+name: First WorkFlow
+
+# This is an event that which user mannlu start the trigger workflow_dispatch
+on: workflow_dispatch
+jobs:
+  first-job:
+# This is reserver key workd which envirmonet github actions runnerrs
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print greeting
+        run: echo "Hello world!"
+      - name: Print GoodBye
+        run: echo "Good bye!"  
+   
