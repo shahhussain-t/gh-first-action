@@ -1,0 +1,22 @@
+# name of the action
+name: second action
+
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print MyName
+        run: |
+            echo "Something went wrong"
+            echo "hello world!"
+            echo "hello world2"
+      - name: Print end command
+        run: echo "hello are you good" 
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing
+        run: echo "testing"
+      - name: testing2
+        run: exho "testing2"
