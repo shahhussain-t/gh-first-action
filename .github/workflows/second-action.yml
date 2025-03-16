@@ -19,4 +19,4 @@ jobs:
       - name: testing
         run: echo "testing"
       - name: testing2
-        run: exho "testing2"
+        run: echo "testing2"
